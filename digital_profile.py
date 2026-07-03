@@ -1,10 +1,10 @@
-import streanlit as st
+import streamlit as st
 
 # 1. หัวข้อใหญ่: แนะนำตัวและชื่อเจ้าของเว็ป
 st.title("My Digital Profile")
 
 # 2. หัวข้อย่อยที่ 1: แนะนำตัว
-st.title("แนะป่าตัว")
+st.title("แนะนำตัว")
 st.write("นางสาวชิติศิริ อินมงคล")
 st.write("ชื่อเล่น เอิงเอย")
 st.write("เลขที่ 10 ม.4/6")
