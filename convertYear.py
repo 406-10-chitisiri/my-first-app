@@ -1,4 +1,4 @@
-import streamlis as st
+import streamlist as st
 st.title("เเอปพลิเคชันเเปลงปี พ.ศ. เป็น ค.ศ.")
 
 bh_year=st.number_input("กรอกปี พ.ศ. ที่ต้องการเเปลง",value=2569)
