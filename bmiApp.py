@@ -10,12 +10,12 @@ height_cm = st.number_input("กรอกส่วนสูงของคุณ
 
 #ส่วนที่3 สร้างปุ่มกดคำณวน
 if st.button("คำณวนค่า BMI🎯 "):
-   # เเปลงส่วนสูงจาก cm เป็น ดมตร เเล้วคำณวน BMI
-   height_m = height_cm/100
-   bmi =weight/ (height_m **2)
+    # เเปลงส่วนสูงจาก cm เป็น เมตร เเล้วคำณวน BMI
+    height_m = height_cm/100
+    bmi =weight/ (height_m **2)
 
-  st.write("---")
-  st.header(f"มีค่า BMI ของคุณคือ:**{bmi:.2f}**")
+    st.write("---")
+    st.header(f"มีค่า BMI ของคุณคือ:**{bmi:.2f}**")
 
  #ส่วนที่4 เเปลผลค่่า BMI ตามเกณฑ์
    if bmi < 18.5:
