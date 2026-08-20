@@ -97,7 +97,21 @@ st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
+)
+ans3 = st.text_input(
+    "ข้อ 3: Plants use `p h _ t _ s y n t h _ s i s` to make food using sunlight. 🌿",
+    value=st.session_state.ans3_val,
+)
+ans4 = st.text_input(
+    "ข้อ 4: The largest ocean on Earth is the `P _ c _ f _ c` Ocean. 🌊",
+    value=st.session_state.ans4_val,
+)
 
+# อัปเดตค่าล่าสุดเข้าตัวแปร
+st.session_state.ans1_val = ans1
+st.session_state.ans2_val = ans2
+st.session_state.ans3_val = ans3
+st.session_state.ans4_val = ans4
 
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
