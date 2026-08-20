@@ -97,7 +97,6 @@ st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
-)
 ans3 = st.text_input(
     "ข้อ 3: Plants use `p h _ t _ s y n t h _ s i s` to make food using sunlight. 🌿",
     value=st.session_state.ans3_val,
